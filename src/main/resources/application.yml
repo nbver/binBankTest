@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/my_data?verifyServerCertificate=false&useSSL=false&requireSSL=false&useLegacyDatetimeCode=false&amp&serverTimezone=UTC
+    username: root
+    password: 
+
+
+
+  jpa:
+    hibernate:
+      show_sql: true
+      dialect: org.hibernate.dialect.MySQL8Dialect
+
+server:
+    port: 8282
